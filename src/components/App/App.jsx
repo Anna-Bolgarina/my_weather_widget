@@ -41,6 +41,8 @@ function App() {
         .catch((error) => {
           setWarning("город не найден");
           setInputState("");
+          setWeatherToday({});
+          setFourDaysWeather([]);
         });
     }
   };

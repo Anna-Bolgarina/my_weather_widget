@@ -8,10 +8,10 @@ function WeatherFourDays({ currentWeather, fourDaysWeather, city }) {
   const date = formatDate();
   return (
     <div className={style.daysWeather}>
-      <div className={style.daysWeather__city}>{city}</div>
       <div className={style.daysWeather__list}>
         {Object.keys(currentWeather).length ? (
           <div>
+            <div className={style.daysWeather__city}>{city}</div>
             <div className={style.daysWeather__list__date}>{date}</div>
             <div className={style.daysWeather__list__temp}>{temp}&#176;</div>
           </div>
