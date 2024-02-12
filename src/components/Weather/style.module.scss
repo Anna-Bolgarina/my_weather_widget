@@ -1,0 +1,17 @@
+@import "../../style/vars.scss";
+
+.weather {
+  padding: 10px;
+  text-align: center;
+  &__temp {
+    font-size: $fs-l;
+    font-weight: $fw-l;
+  }
+  &__info {
+  margin-top: 20px;
+  }
+  &__city {
+    font-size: $fs-m;
+    margin-bottom: 50px;
+  }
+}

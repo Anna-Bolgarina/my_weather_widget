@@ -1,0 +1,41 @@
+@import "../../style/vars.scss";
+
+.container {
+  padding: 20px;
+}
+.box {
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 800px;
+  height: 800px;
+  background-color: $bcc;
+  border: 1px solid $borderc;
+  border-radius: 10px;
+}
+.title {
+  padding-top: 10px;
+  text-align: center;
+  font-size: $fs-m;
+  font-weight: $fw-l;
+}
+.buttons {
+  margin-top: 10px;
+  display: flex;
+  gap: 20px;
+}
+button {
+  padding: 5px;
+  background-color: $bcbtn;
+  border: 0.1px solid $bordercbtn;
+  border-radius: 5px;
+}
+.active {
+  background-color: $bcbtnactiv;
+  color: $activc;
+  transition: 0.2s;
+}
+.allWeather {
+  height: 600px;
+  border: 1px solid $borderc;
+  border-radius: 10px;
+}

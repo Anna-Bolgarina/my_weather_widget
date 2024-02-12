@@ -1,0 +1,33 @@
+@import "../../style/vars.scss";
+
+.daysWeather {
+  text-align: center;
+  &__city {
+    font-size: $fs-m;
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap:10px;
+    &__date{
+      margin-top: 10px;
+    }
+    &__temp {
+      font-size:$fs-m;
+      font-weight:$fw-l;
+      position: relative;
+      top: -130px;
+    } 
+    &__fourDays {
+     padding: 10px; 
+     width: 400px;
+     border: 1px solid $borderc;
+     border-radius: 10px;
+     &_temp {
+      margin-top: 10px;
+      font-weight: $fw-l;
+     }
+    }
+  }
+}

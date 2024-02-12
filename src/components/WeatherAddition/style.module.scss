@@ -1,0 +1,14 @@
+.additionalList {
+  margin: 10px 50px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap:10px;
+  &__img {
+    display: block;
+    margin: 0 auto;
+  }
+  &__cloudy {
+    text-align: center;
+  }
+}
